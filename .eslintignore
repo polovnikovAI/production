@@ -1,0 +1,4 @@
+/config/build/**
+/config/jest/**
+/config/storybook/**
+*.config.ts

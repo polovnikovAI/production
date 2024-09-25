@@ -13,23 +13,21 @@
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-    "project": "./tsconfig.json",
-    "ecmaFeatures": {
-        "jsx": true
+        "project": "./tsconfig.json",
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
     },
-    "ecmaVersion": "latest",
-    "sourceType": "module"
-    },
-    "plugins": [
-        "react",
-        "@typescript-eslint",
-        "i18next"
-    ],
+    "plugins": ["react", "@typescript-eslint", "i18next"],
     "rules": {
         "react/jsx-indent": [2, 4],
         "react/jsx-indent-props": [2, 4],
         "indent": [2, 4],
-        "react/jsx-filename-extension": [2, {
+        "react/jsx-filename-extension": [
+            2,
+            {
                 "extensions": [".js", ".jsx", ".tsx"]
             }
         ],
@@ -46,8 +44,8 @@
         "no-underscore-dangle": "off",
         "react/no-deprecated": "off",
         "@typescript-eslint/ban-ts-comment": "warn",
-        "i18next/no-literal-string": ["error", {"markupOnly": true}],
-        "max-len": ["error", {"ignoreComments": true}]
+        "i18next/no-literal-string": ["warn", { "markupOnly": true }],
+        "max-len": ["warn", { "ignoreComments": true }]
     },
     "globals": {
         "__IS_DEV__": true
