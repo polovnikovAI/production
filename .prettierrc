@@ -11,5 +11,14 @@
     "trailingComma": "all",
     "useTabs": false,
     "endOfLine": "lf",
-    "singleAttributePerLine": true
+    "singleAttributePerLine": true,
+    "overrides": [
+        {
+            "files": ["*.scss"],
+            "options": {
+                "semi": true,
+                "singleQuote": false
+            }
+        }
+    ]
 }
