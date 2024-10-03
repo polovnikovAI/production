@@ -20,7 +20,7 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": ["react", "@typescript-eslint", "i18next"],
+    "plugins": ["react", "@typescript-eslint", "i18next", "react-hooks"],
     "rules": {
         "react/jsx-indent": [2, 4],
         "react/jsx-indent-props": [2, 4],
@@ -45,7 +45,9 @@
         "react/no-deprecated": "off",
         "@typescript-eslint/ban-ts-comment": "warn",
         "i18next/no-literal-string": ["warn", { "markupOnly": true }],
-        "max-len": ["warn", { "ignoreComments": true }]
+        "max-len": ["warn", { "ignoreComments": true }],
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "error"
     },
     "globals": {
         "__IS_DEV__": true
