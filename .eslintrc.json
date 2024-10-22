@@ -1,4 +1,9 @@
 {
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
     "root": true,
     "env": {
         "browser": true,
@@ -47,7 +52,8 @@
         "i18next/no-literal-string": ["warn", { "markupOnly": true }],
         "max-len": ["warn", { "ignoreComments": true }],
         "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "error"
+        "react-hooks/exhaustive-deps": "error",
+        "react/display-name": "warn"
     },
     "globals": {
         "__IS_DEV__": true
