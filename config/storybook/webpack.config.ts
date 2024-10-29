@@ -11,8 +11,8 @@ export default ({ config }: { config: Configuration }) => {
         entry: '',
         src: path.resolve(__dirname, '..', '..', 'src'),
     }
-    config.resolve?.modules?.push(paths.src)
-    config.resolve?.extensions?.push('.ts', '.tsx')
+    config!.resolve!.modules!.push(paths.src)
+    config!.resolve!.extensions!.push('.ts', '.tsx')
 
     //@ts-ignore
     config.module.rules = config.module.rules.map((rule: RuleSetRule) => {
@@ -23,15 +23,16 @@ export default ({ config }: { config: Configuration }) => {
         return rule
     })
 
-    config.module?.rules?.push({
+    config!.module!.rules!.push({
         test: /\.svg$/,
         use: ['@svgr/webpack'],
     })
-    config.module?.rules?.push(buildCssLoader(true))
+    config!.module!.rules!.push(buildCssLoader(true))
 
-    config.plugins?.push(
+    config!.plugins!.push(
         new DefinePlugin({
-            __IS_DEV__: true,
+            __IS_DEV__: JSON.stringify(true),
+            __API__: JSON.stringify(''),
         }),
     )
 
