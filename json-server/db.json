@@ -1,38 +1,38 @@
 {
-    "posts": [
-        {
-            "id": "1",
-            "title": "json-server",
-            "userId": "1"
-        },
-        {
-            "id": "2",
-            "title": "json-server",
-            "userId": "2"
-        }
-    ],
-    "comments": [
-        {
-            "id": "1",
-            "body": "some comment",
-            "postId": "1"
-        }
-    ],
-    "users": [
-        {
-            "id": "1",
-            "username": "admin",
-            "password": "123"
-        }
-    ],
-    "profile": {
-        "first": "Алексей",
-        "lastname": "Половников",
-        "age": 21,
-        "currency": "RUB",
-        "country": "Russia",
-        "city": "Ekaterinburg",
-        "username": "admin",
-        "avatar": "https://klike.net/uploads/posts/2019-03/1551511801_1.jpg"
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "json-server",
+      "userId": "2"
     }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123"
+    }
+  ],
+  "profile": {
+    "first": "Алексей",
+    "lastname": "Половников",
+    "age": 21,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Ekaterinburg",
+    "username": "admin",
+    "avatar": "https://i.pinimg.com/originals/d7/00/a2/d700a2efa7a97f6fd685b08a45b30a33.png"
+  }
 }
