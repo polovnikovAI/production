@@ -25,7 +25,6 @@ export function buildPlugins({
             __API__: JSON.stringify(apiUrl),
             __PROJECT__: JSON.stringify(project),
         }),
-        new ReactRefreshWebpackPlugin(),
     ]
 
     if (isDev) {
@@ -35,6 +34,7 @@ export function buildPlugins({
                 openAnalyzer: false,
             }),
         )
+        plugins.push(new ReactRefreshWebpackPlugin())
     }
 
     return plugins

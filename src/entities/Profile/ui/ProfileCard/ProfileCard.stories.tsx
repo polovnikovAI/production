@@ -1,6 +1,5 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 import { ProfileCard } from './ProfileCard'
-import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator'
 import { Country } from 'entities/Country'
 import { Currency } from 'entities/Currency'
 import avatar from 'shared/assets/tests/storybook.jpg'
@@ -27,7 +26,7 @@ Primary.args = {
         city: 'Gomel',
         username: 'test',
         currency: Currency.USD,
-        avatar: avatar,
+        avatar: 'https://i.pinimg.com/originals/d7/00/a2/d700a2efa7a97f6fd685b08a45b30a33.png',
     },
 }
 Primary.decorators = []
