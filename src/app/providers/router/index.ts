@@ -1,5 +1,4 @@
-import AppRouter from "./ui/AppRouter";
+import AppRouter from './ui/AppRouter'
+import { RequireAuth } from './ui/RequireAuth'
 
-export {
-    AppRouter
-}
+export { AppRouter, RequireAuth }
