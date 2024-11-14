@@ -107,13 +107,15 @@
             "id": "1",
             "username": "admin",
             "password": "123",
-            "role": "ADMIN"
+            "role": "ADMIN",
+            "avatar": "https://icons.veryicon.com/png/o/commerce-shopping/wangdianbao-icon-monochrome/administrators-6.png"
         },
         {
             "id": "2",
             "username": "user",
             "password": "123",
-            "role": "USER"
+            "role": "USER",
+            "avatar": "https://static-00.iconduck.com/assets.00/user-icon-1024x1024-unb6q333.png"
         }
     ],
     "profile": {
