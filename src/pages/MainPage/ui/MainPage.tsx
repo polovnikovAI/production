@@ -12,7 +12,7 @@ const MainPage = () => {
         setValue(val)
     }
 
-    return <Page>{t('Главная страница')}</Page>
+    return <div>{t('Главная страница')}</div>
 }
 
 export default MainPage
