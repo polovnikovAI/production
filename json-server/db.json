@@ -601,6 +601,18 @@
       "userId": "2",
       "text": "привет",
       "id": "fu9RARd"
+    },
+    {
+      "articleId": "4",
+      "userId": "2",
+      "text": "admin comment",
+      "id": "iiiZ1ur"
+    },
+    {
+      "articleId": "4",
+      "userId": "2",
+      "text": "no< it's user",
+      "id": "oX92MHA"
     }
   ],
   "users": [
