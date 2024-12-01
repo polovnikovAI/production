@@ -613,6 +613,18 @@
       "userId": "2",
       "text": "no< it's user",
       "id": "oX92MHA"
+    },
+    {
+      "articleId": "7",
+      "userId": "2",
+      "text": "user comment",
+      "id": "xkfWlT4"
+    },
+    {
+      "articleId": "7",
+      "userId": "1",
+      "text": "admin comment",
+      "id": "bXC-DiH"
     }
   ],
   "users": [
