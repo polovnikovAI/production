@@ -25,7 +25,7 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": ["react", "@typescript-eslint", "i18next", "react-hooks"],
+    "plugins": ["react", "@typescript-eslint", "i18next", "react-hooks", "gekon-plugin"],
     "rules": {
         "react/jsx-indent": [2, 4],
         "react/jsx-indent-props": [2, 4],
@@ -53,7 +53,8 @@
         "max-len": ["warn", { "ignoreComments": true }],
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "error",
-        "react/display-name": "warn"
+        "react/display-name": "warn",
+        "gekon-plugin/path-checker": "error"
     },
     "globals": {
         "__IS_DEV__": true,

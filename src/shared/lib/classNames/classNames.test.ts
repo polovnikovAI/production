@@ -1,5 +1,5 @@
 //@ts-ignore
-import { classNames } from 'shared/lib/classNames/classNames'
+import { classNames } from './classNames'
 
 describe('classNames tests', () => {
     test('with only first param', () => {
