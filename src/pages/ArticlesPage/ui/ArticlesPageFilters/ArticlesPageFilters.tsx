@@ -1,7 +1,7 @@
 import { classNames } from 'shared/lib/classNames/classNames'
 import cls from './ArticlesPageFilters.module.scss'
 import { useTranslation } from 'react-i18next'
-import { memo, useCallback, useMemo } from 'react'
+import { memo, useCallback } from 'react'
 import {
     ArticleSortField,
     ArticleView,
@@ -25,7 +25,6 @@ import { Input } from 'shared/ui/Input/Input'
 import { SortOrder } from 'shared/types'
 import { fetchArticlesList } from '../../model/services/fetchArticlesList/fetchArticlesList'
 import { useDebounce } from 'shared/lib/hooks/useDebounce/useDebounce'
-import { TabItem, Tabs } from 'shared/ui/Tabs/Tabs'
 
 interface ArticlesPageFiltersProps {
     className?: string
